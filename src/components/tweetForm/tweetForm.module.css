@@ -1,0 +1,58 @@
+.container {
+    height: 175px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+.top {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.imageContainer {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.imageContainer>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.top > input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tweetButton {
+    border: none;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #2e7aec;
+    color: white;
+    border-radius: 20px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}

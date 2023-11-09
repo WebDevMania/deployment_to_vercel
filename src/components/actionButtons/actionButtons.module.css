@@ -1,0 +1,19 @@
+.buttonContainer {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer>button,
+.buttonContainer>a {
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}

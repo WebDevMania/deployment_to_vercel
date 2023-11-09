@@ -1,0 +1,53 @@
+.container {
+    margin-top: 5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper>h2 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.wrapper > form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.wrapper > form > input{
+    width: 25%;
+    padding: 0.25rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+    color: white;
+}
+
+.editButton{
+    margin-top: 2.5rem;
+    border: none;
+    outline: none;
+    padding: 0.4rem 1.25rem;
+    width: 25%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 150ms;
+}
+
+.editButton:hover{
+   background-color: #e7e5e5;
+}

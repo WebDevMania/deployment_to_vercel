@@ -1,0 +1,38 @@
+.container {
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid #333;
+}
+
+.wrapper {
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 15px;
+    height: 300px;
+    width: 100%;
+}
+
+.usernameTwitter{
+   text-transform: lowercase;
+   color: #666;
+}
+
+.wrapper > h2{
+    margin-bottom: 2rem;
+}
+
+.user > img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+}

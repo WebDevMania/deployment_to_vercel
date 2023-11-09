@@ -1,0 +1,86 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.wrapper {
+    height: 475px;
+    width: 450px;
+    background-color: #222;
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top>h3 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.inputs {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.inputs>input {
+    border: 1px solid #333;
+    outline: none;
+    background-color: transparent;
+    padding: 0.75rem 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.registerButton {
+    margin-top: 1.75rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.loginMessage{
+    position: absolute;
+    top: 42rem;
+    left: 45%;
+    right: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.login{
+    font-size: 18px;
+    transition: 250ms;
+}
+
+.login:hover{
+    scale: 1.05;
+}

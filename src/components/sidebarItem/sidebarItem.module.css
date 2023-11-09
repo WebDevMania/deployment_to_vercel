@@ -1,0 +1,20 @@
+.container {
+    margin: 1.5rem 0;
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    font-size: 22px;
+}
+
+.dot {
+    position: absolute;
+    left: -0.75rem;
+    bottom: -0.2rem;
+    fill: #4747ee;
+}

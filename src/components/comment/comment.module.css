@@ -1,0 +1,56 @@
+.container {
+    height: 150px;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.imageContainer {
+    height: 40px;
+    width: 40px;
+}
+
+.imageContainer>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+}
+
+.top {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.usernameTwitter {
+    color: #555;
+}
+
+.commentedAgo {
+    color: #555;
+}
+
+.desc {
+    margin-left: 56px;
+    margin-bottom: 1.25rem;
+}
+
+.action{
+    margin-left: 56px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}

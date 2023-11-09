@@ -1,0 +1,69 @@
+.container {
+    height: 150px;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+.container:hover{
+    background-color: #131212;
+}
+
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.imageContainer {
+    height: 40px;
+    width: 40px;
+}
+
+.imageContainer>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+}
+
+.top {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.usernameTwitter {
+    color: #555;
+}
+
+.postedAgo {
+    color: #555;
+}
+
+.desc {
+    margin-left: 56px;
+    margin-bottom: 1.25rem;
+}
+
+.actions {
+    margin-left: 56px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action{
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}

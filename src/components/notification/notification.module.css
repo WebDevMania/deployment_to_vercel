@@ -1,0 +1,24 @@
+.container {
+    height: 80px;
+    width: 100%;
+}
+
+.wrapper {
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.text {
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.icon {
+    display: block;
+}
+
+.createdAt {
+    color: #666;
+}
